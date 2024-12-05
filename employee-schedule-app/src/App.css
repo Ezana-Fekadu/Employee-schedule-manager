@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.calendar-container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.react-big-calendar {
+  font-family: Arial, sans-serif;
+}
+
+.react-big-calendar__month-view__weekdays {
+  color: gray;
+}
+
+.react-big-calendar__navigation button {
+  font-size: 1em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
