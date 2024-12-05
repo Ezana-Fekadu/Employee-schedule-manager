@@ -48,7 +48,7 @@ const App = () => {
             <Schedule fetchSchedules={fetchSchedules} />
 
             {/* Pass dynamically fetched events to the BookingCalendar */}
-            <BookingCalendar events={events} />
+            
         </div>
     );
 };
