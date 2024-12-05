@@ -46,8 +46,6 @@ const App = () => {
         <div>
             {/* Display the Schedule Management Component */}
             <Schedule fetchSchedules={fetchSchedules} />
-
-            {/* Pass dynamically fetched events to the BookingCalendar */}
             
         </div>
     );
